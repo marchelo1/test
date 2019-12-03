@@ -1,0 +1,573 @@
+@import url("http://fonts.googleapis.com/css?family=Poppins:400,500,700");
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+  color: white;
+}
+
+html,
+body {
+  padding: 0;
+  margin: 0;
+  height: 100%;
+}
+
+.main-header {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  padding-bottom: 30px;
+  background-color: rgb(29, 28, 28);
+  border-bottom: 0.1px solid rgb(112, 112, 112);
+  padding-bottom: 41px;
+}
+
+.brand-logo {
+  display: flex;
+  align-items: center;
+  font-size: 26px;
+  color: inherit;
+  text-decoration: none;
+  padding-left: 157px;
+  padding-top: 24px;
+  margin-right: auto;
+  margin-bottom: -10px;
+}
+
+.brand-logo-name {
+  border-right: 5px solid #18b6d3;
+  border-spacing: 3px;
+  padding-left: 3px;
+  font-weight: 600;
+}
+
+span {
+  font-weight: lighter;
+  padding-right: 3px;
+}
+
+.main-nav {
+  padding-right: 30px;
+  padding-top: 6px;
+}
+
+.main-nav ul {
+  display: flex;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  padding-top: 34px;
+}
+
+.main-nav a {
+  color: inherit;
+  text-decoration: none;
+  padding: 0.4rem;
+  border-bottom: transparent solid 1px;
+  padding-bottom: 6px;
+}
+
+.main-nav a:hover {
+  border-bottom: 3px solid #2cc1db;
+  padding-bottom: 39px;
+  transition: all 1s;
+}
+
+.lang-list.active {
+  color: #5d5d5d;
+  margin-left: 50px;
+}
+
+.rectangle {
+  height: 54px;
+  width: 76%;
+  background-color: #00a6ca;
+  padding-left: 25px;
+  padding-top: 1px;
+  margin-left: 77px;
+  margin-top: 0px;
+  font-size: 14px;
+  position: absolute;
+  z-index: 999;
+}
+
+.unlock-section-image {
+  background-image: url("./img/background2222.png"), url("./img/woman.png");
+  background-position: bottom right, center top;
+  background-blend-mode: color-dodge;
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: auto;
+  padding-top: 1px;
+}
+
+.unlock-text {
+  width: 695px;
+  padding: 68px;
+  background-position: center;
+  margin: 150px;
+  margin-left: 279px;
+}
+
+.unlock-text h1 {
+  font-size: 50px;
+  margin-bottom: 0px;
+  font-weight: 400;
+  line-height: 66px;
+  letter-spacing: 3px;
+}
+
+.unlock-text h1 span {
+  border-right: 4px solid #18b6d3;
+  border-spacing: 3px;
+  padding-left: 8px;
+  padding-top: 0px;
+}
+
+.unlock-text p {
+  font-size: 14px;
+  padding-top: 20px;
+  font-weight: 400;
+}
+
+.train-text {
+  margin: auto;
+  width: 80%;
+  padding: 203px;
+  text-align: center;
+  padding-bottom: 75px;
+}
+
+.train-text span {
+  color: #2cc1db;
+}
+
+.train-text h1 {
+  font-size: 55px;
+  margin-bottom: 0px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 3px;
+  padding-bottom: 19px;
+  padding-top: 120px;
+}
+
+.sport-grid {
+  display: grid;
+  grid-template-columns: 180px 180px 180px 180px 180px;
+  grid-auto-rows: 80px 80px;
+  padding: 0px;
+  padding-left: 17%;
+  padding-top: 65px;
+}
+
+.grid-sport {
+  border: 1px solid rgba(150, 147, 147, 0.286);
+  padding: 20px;
+  font-size: 10px;
+  text-align: center;
+  border-bottom: hidden;
+  border-width: thin;
+}
+
+.grid-sport p {
+  text-align: center;
+  padding-top: 28px;
+}
+
+.sport-grid .handball {
+  background-image: url("./img/AnyConv.com__handball.png");
+  color: white;
+  background-repeat: no-repeat;
+  background-size: 40px 40px;
+  background-position: center 10px;
+}
+
+.sport-grid .football {
+  background-image: url("./img/AnyConv.com__football.png");
+  color: white;
+  background-repeat: no-repeat;
+  background-size: 40px 40px;
+  background-position: center 10px;
+}
+
+.sport-grid .volleyball {
+  background-image: url("./img/AnyConv.com__handball.png");
+  color: white;
+  background-repeat: no-repeat;
+  background-size: 40px 40px;
+  background-position: center 10px;
+}
+
+.sport-grid .basketball {
+  background-image: url("./img/AnyConv.com__basketball.png");
+  color: white;
+  background-repeat: no-repeat;
+  background-size: 40px 40px;
+  background-position: center 10px;
+}
+
+.sport-grid .shooting {
+  background-image: url("./img/AnyConv.com__shooting.png");
+  color: white;
+  background-repeat: no-repeat;
+  background-size: 40px 40px;
+  background-position: center 10px;
+}
+
+.sport-grid .judo {
+  background-image: url("./img/AnyConv.com__judo.png");
+  color: white;
+  background-repeat: no-repeat;
+  background-size: 40px 40px;
+  background-position: center 10px;
+}
+
+.sport-grid .karate {
+  background-image: url("./img/AnyConv.com__karate.png");
+  color: white;
+  background-repeat: no-repeat;
+  background-size: 40px 40px;
+  background-position: center 10px;
+}
+
+.sport-grid .tennis {
+  background-image: url("./img/AnyConv.com__tennist.png");
+  color: white;
+  background-repeat: no-repeat;
+  background-size: 40px 40px;
+  background-position: center 10px;
+}
+
+.sport-grid .athletics {
+  background-image: url("./img/AnyConv.com__athletic.png");
+  color: white;
+  background-repeat: no-repeat;
+  background-size: 40px 40px;
+  background-position: center 10px;
+}
+
+.sport-grid .biathlon {
+  background-image: url("./img/AnyConv.com__biathlon.png");
+  color: white;
+  background-repeat: no-repeat;
+  background-size: 40px 40px;
+  background-position: center 10px;
+}
+
+.area {
+  background-image: url("img/background2.jpg"),
+    url("./img/shutterstock_598641314.jpg");
+  background-position: bottom left, center right;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: auto;
+  width: auto;
+}
+
+.black-nav {
+  width: 100%;
+  height: 140px;
+  background-color: #0a0a0a;
+}
+
+.area-text {
+  margin: auto;
+  width: 100%;
+  padding: 135px;
+  text-align: left;
+  padding-bottom: 75px;
+}
+
+.area-text h1 {
+  font-size: 35px;
+  margin-bottom: 0px;
+  font-weight: 400;
+  line-height: 47px;
+  letter-spacing: 3px;
+  padding-bottom: 77px;
+  padding-top: 0px;
+  margin-right: 270px;
+}
+
+.area-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-auto-rows: auto;
+  grid-gap: 1rem;
+}
+
+.area-text-grid {
+  background-color: #232529;
+  width: 217px;
+  height: 149px;
+  text-align: center;
+  padding: 1em;
+}
+
+.references {
+  background-image: url(img/background2.jpg);
+  background-position: top;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 188vh;
+  width: auto;
+  position: relative;
+}
+
+.references-text {
+  height: 179px;
+  width: 75%;
+  background-color: #00a6ca;
+  padding-left: 5px;
+  padding-top: 1px;
+  margin-left: 186px;
+  margin-top: 257px;
+  font-size: 14px;
+  position: absolute;
+  z-index: 999;
+}
+
+.references-text h4 {
+  font-size: 24px;
+  margin: auto;
+  margin-top: 44px;
+  text-align: center;
+  font-weight: 500;
+}
+
+.references-quote {
+  width: 58%;
+  padding: 149px;
+  text-align: left;
+  padding-bottom: 0px;
+  margin-top: 468px;
+  float: left;
+}
+
+/* .trophy {
+  background-image: url("img/shutterstock_598641314.jpg");
+  z-index: 4;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin-left: 781px;
+  margin-top: -371px;
+  height: 396px;
+  opacity: 0.2;
+  filter: alpha(opacity=50);
+  width: auto;
+} */
+
+blockquote {
+  border: none;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  margin-bottom: -60px;
+  position: relative;
+  max-width: 400px;
+  margin: 0 auto;
+  padding-left: 0.4em;
+}
+
+blockquote p {
+  font-size: 14px;
+  margin: 14px;
+}
+
+blockquote p:before {
+  content: "\201C";
+  font-weight: bold;
+  font-size: 100px;
+  color: #00a6ca;
+  position: absolute;
+  top: -0.2em;
+  left: -0.5em;
+  font-style: italic;
+}
+blockquote p:after {
+  content: "\201D";
+  font-weight: bold;
+  font-size: 100px;
+  color: #00a6ca;
+  position: absolute;
+  bottom: -0.6em;
+  right: 0;
+  font-style: italic;
+}
+
+.references-flex {
+  display: flex;
+}
+
+.image-quote {
+  background-image: url("img/Rectangle55.png");
+  background-repeat: no-repeat;
+  background-position: left;
+  height: 573px;
+  width: 741px;
+  z-index: 6;
+  float: right;
+  background-position: top;
+  margin-left: 110px;
+  margin-top: -418px;
+  display: block;
+  position: relative;
+}
+
+.square-quote {
+  background-image: url("img/Group8.png");
+  display: block;
+}
+
+.about {
+  background: rgba(0, 26, 0, 0.5) url(img/background2.jpg);
+  background-blend-mode: color;
+  display: flex;
+  height: 90vh;
+  width: auto;
+  background-position: top;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.about-image {
+  background-image: url("img/Rectangle8.png");
+  background-repeat: no-repeat;
+  background-position: left;
+  height: 649px;
+  width: 741px;
+  z-index: 6;
+  float: left;
+  display: block;
+  position: relative;
+}
+
+.about-text {
+  width: 400px;
+  padding: 0px;
+  background-position: right;
+  margin: 102px;
+  margin-left: 0px;
+}
+
+.about-text h1 {
+  font-size: 28px;
+  font-weight: 400;
+  padding-top: 27px;
+  margin-bottom: 0px;
+}
+
+.about-text h1 span {
+  border-right: 4px solid #18b6d3;
+  border-spacing: 3px;
+  padding-left: 1px;
+  padding-top: 0px;
+}
+
+.footer-bottom {
+  height: 90vh;
+  background-color: #292929;
+}
+
+.footer-navbar {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.footer-nav {
+  padding-right: 125px;
+  padding-top: 35px;
+}
+
+.footer-nav ul {
+  display: flex;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  padding-top: 0px;
+}
+
+.footer-nav a {
+  color: inherit;
+  text-decoration: none;
+  padding: 0.4rem;
+  border-bottom: transparent solid 1px;
+  padding-bottom: 6px;
+}
+
+.footer-nav ul li a.square {
+  height: 50px;
+  width: 50px;
+  color: #555;
+  border: 1px solid white;
+  padding-left: 30px;
+  margin: 4px;
+}
+
+.footer-nav .linkedin {
+  background-image: url("img/linkedin.png");
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.footer-contact {
+  position: relative;
+  text-align: center;
+  padding-bottom: 145px;
+}
+
+.contact-text {
+  font-size: 28px;
+  font-weight: 400;
+  padding-top: 119px;
+  margin-bottom: 0px;
+}
+
+.contact-text span {
+  color: #18b6d3;
+}
+
+.contact-button {
+  background-color: #18b6d3;
+  padding: 10px 30px;
+  margin-top: 25px;
+  border-color: #18b6d3;
+}
+
+.image-footer {
+  background-image: url(img/shutterstock_695591215.jpg);
+  z-index: 4;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin-left: 781px;
+  margin-top: -371px;
+  height: 396px;
+  opacity: 0.2;
+  filter: alpha(opacity=50);
+  width: auto;
+}
+
+.footer-copyright {
+  padding-top: 54px;
+  font-size: 12px;
+}
+
+.footer-copyright a {
+  color: #18b6d3;
+}
+
+.footer-copyright-text-left {
+  float: left;
+  padding-left: 11%;
+}
+
+.footer-copyright-text-right {
+  float: right;
+  padding-right: 9%;
+}
